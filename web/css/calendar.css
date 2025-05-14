@@ -1,0 +1,141 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #DCF5E5;
+}
+
+.daily-calendar {
+    width: 320px;
+    height: 90vh;
+    background-color: #e3e8e3; 
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    overflow-y: auto; 
+}
+
+.date {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #c8d6c0;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.hour {
+    padding: 15px;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 14px;
+    background-color: #f0f5f1;
+    color: #4a4a4a;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hour:hover {
+    background-color: #d1e7d1;
+}
+
+.hour.selected {
+    background-color: #a8d5ba; 
+    color: white;
+    font-weight: bold;
+}
+
+.hour:last-child {
+    border-bottom: none;
+}
+
+.hour span {
+    font-weight: bold;
+}
+
+
+.daily-calendar {
+    width: 320px;
+    height: 90vh;
+    background-color: #e3e8e3; 
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    overflow-y: auto; 
+}
+
+.date {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #c8d6c0;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.hour {
+    padding: 15px;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 14px;
+    background-color: #f0f5f1;
+    color: #4a4a4a;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hour.selected {
+    background-color: #a8d5ba;
+    color: white;
+    font-weight: bold;
+}
+
+.hour:last-child {
+    border-bottom: none;
+}
+
+.hour span {
+    font-weight: bold;
+}
+
+.nav_Wrap{
+    text-indent: 20%;
+    border: solid 1px #000000;
+    background: #D9D9D9;
+    box-shadow: 1px 1px 1px #000000;
+    position: fixed;
+    bottom: 1px;
+    background: #D9D9D9;
+    padding: 10px;
+    color: white;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    li{
+        font-size: 12px;
+        width: 136px;
+        height: 60px;
+        list-style: none;
+        margin-top: 17px;
+    }
+}

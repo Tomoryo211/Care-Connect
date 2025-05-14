@@ -1,0 +1,245 @@
+html{
+    font-size: 62.5%;
+    height: 950px;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #DCF5E5;
+}
+.title{
+    font-size: 32px;
+    text-indent: 10%;
+    margin-top: 70px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px; 
+}
+.back{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.symptom_Wrap{
+    .disease{
+        font-size: 16px;
+        border: solid 1px #D9D9D9;
+        background: #D9D9D9;
+        color: #000;
+        margin-top: 60px;
+        text-indent: 10px;
+    }
+    a{
+        color: #000;
+    }
+    .symptom{
+        display: flex;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .symptom label{
+        display: block;
+        width: 150px;
+        background: #ffffff;
+        color: #000;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    .symptom input:checked+label{
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom input{
+        display: none;
+    }
+
+
+    .symptom {
+        display: flex;
+        font-size: 18px;
+        gap: 10px;
+    }
+    .symptom label {
+        display: block;
+        width: 150px;
+        background: #c8eac3;
+        color: #000;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .symptom #symptom4:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom #symptom5:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom #symptom6:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom input {
+        display: none;
+    }
+    
+
+    .symptom {
+        display: flex;
+        font-size: 18px;
+        gap: 10px;
+    }
+    .symptom label {
+        display: block;
+        width: 150px;
+        background: #c8eac3;
+        color: #000;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .symptom #symptom1:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom #symptom2:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom #symptom3:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom input {
+        display: none;
+    }
+    .digestive_Wrap{
+        font-size: 16px;
+        border: solid 1px #D9D9D9;
+        background: #D9D9D9;
+        color: #685858;
+        margin-top:40px;
+        text-indent: 10px;
+    }
+    .symptom {
+        display: flex;
+        font-size: 18px;
+        gap: 10px;
+    }
+    .symptom label {
+        display: block;
+        width: 150px;
+        background: #c8eac3;
+        color: #000;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .symptom #symptom7:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom #symptom8.symptom + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom #symptom9:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom input {
+        display: none;
+    }
+    .symptom {
+        display: flex;
+        font-size: 18px;
+        gap: 10px;
+    }
+    .symptom label {
+        display: block;
+        width: 150px;
+        background: #c8eac3;
+        color: #000;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .symptom #symptom10:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom #symptom11.symptom + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom #symptom12:checked + label {
+        background: #1a720d;
+        color: #FFF;
+    }
+    .symptom input {
+        display: none;
+    }
+    .reserved{
+        text-align: center;
+        font-size: 24px;
+        margin-top: 80px;
+        border: 1px solid #000;
+        background: #FFF;
+        width: 265px;
+        height: 55px;
+        box-shadow: 1px 1px 1px #000000;
+        text-indent: 5%;
+        position: relative;
+        left: 15%;
+        color: #000;
+        text-decoration: none;
+    }
+}
+.nav_Wrap{
+    text-indent: 20%;
+    border: solid 1px #000000;
+    background: #D9D9D9;
+    box-shadow: 1px 1px 1px #000000;
+    position: fixed;
+    bottom: 1px;
+    background: #D9D9D9;
+    padding: 10px;
+    color: white;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    li{
+        font-size: 12px;
+        width: 136px;
+        height: 60px;
+        list-style: none;
+        margin-top: 17px;
+    }
+}
+

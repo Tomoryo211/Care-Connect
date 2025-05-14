@@ -1,0 +1,86 @@
+html{
+    font-size: 62.5%;
+    height: 600px;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #DCF5E5;
+}
+.btnWrap{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    .picture{
+    text-align: center;
+    width: 162px;
+    height: 242px;
+    border: solid 1px #000000;
+    margin: 10px;
+    box-shadow: 1px 1px 1px #000000;
+    font-size: 20px;
+    border-radius: 30px;
+    background: #fff;
+    }
+    a{
+        color: #000;
+    }
+    .cold{
+        display: inline-block;
+        vertical-align: -120%;
+        margin: 0 20px;
+        color: #000000;
+    }
+    .picture_Wrap{
+        text-align: center;
+        width: 162px;
+        height: 242px;
+        border: solid 1px #000000;
+        margin: 10px;
+        box-shadow: 1px 1px 1px #000000;
+        font-size: 20px;
+        background: #fff;
+        border-radius: 30px;
+        color: #000000;
+    }
+    .infection{
+        display: inline-table;
+        vertical-align: -120%;
+    }
+}
+.back{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 265px;
+    height: 55px;
+    box-shadow: 1px 1px 1px #000000;
+    text-indent: 5%;
+    position: relative;
+    left: 15%;
+    color: #000;
+    text-decoration: none;
+}
+.nav_Wrap{
+    text-indent: 20%;
+    border: solid 1px #000000;
+    background: #D9D9D9;
+    box-shadow: 1px 1px 1px #000000;
+    position: fixed;
+    bottom: 1px;
+    background: #D9D9D9;
+    padding: 10px;
+    color: white;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    li{
+        font-size: 12px;
+        width: 136px;
+        height: 60px;
+        list-style: none;
+        margin-top: 17px;
+    }
+}

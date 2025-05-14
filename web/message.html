@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ケアコネクト</title>
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/message.css">
+</head>
+<body>
+<header>
+    <div class="icon">
+        <a href="index.html"><img src="img/home.png" alt=""></a>
+    </div>
+</header>
+
+<main>
+    <div class="chat-container">
+        <h2>🗨️ トーク</h2>
+        <div id="chat-box"></div>
+        
+        <div class="input-area">
+            <input type="text" id="message-input" placeholder="メッセージを入力..." onkeypress="handleKeyPress(event)">
+            <a href="camera/index.html"><button onclick="sendMessage()">送信</button></a>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</main>
+</body>
+</html>
